@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 # Get the path
-path = Path('weather_data/sitka_weather_07-2021_simple.csv')
+path = Path('weather_data/sitka_weather_2021_simple.csv')
 # Read the file and make a list of it.
 lines = path.read_text().splitlines()
 
@@ -29,10 +29,10 @@ for row in reader:
 # Plot the high temperatures
 plt.style.use(plt.style.available[16])
 fig, ax = plt.subplots()
-ax.plot(dates, highs, color='red', linewidth=3)
+ax.polt(dates, highs, color='red', linewidth=1.5)
 
 # Format plot
-ax.set_title("Daily High Temperatures, July 2021", fontsize=24)
+ax.set_title("Daily High Temperatures, 2021", fontsize=24)
 ax.set_xlabel("", fontsize=16)
 fig.autofmt_xdate()
 ax.set_ylabel("Temperature (F)", fontsize=16)
