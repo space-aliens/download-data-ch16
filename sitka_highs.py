@@ -29,7 +29,7 @@ for row in reader:
 # Plot the high temperatures
 plt.style.use(plt.style.available[16])
 fig, ax = plt.subplots()
-ax.polt(dates, highs, color='red', linewidth=1.5)
+ax.plot(dates, highs, color='red', linewidth=3)
 
 # Format plot
 ax.set_title("Daily High Temperatures, 2021", fontsize=24)
