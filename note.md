@@ -40,3 +40,25 @@ result:
 ['USW00025333', 'SITKA AIRPORT, AK US', '2021-07-31', '', '66', '48']
 
 ```
+
+## Creating a object of particular date
+
++ import datetime module 
++ call .strptime() method, it take date and format as arrgument.
+
+```python
+>>> from datetime import datetime
+>>> first_date = datetime.strptime('2021-07-01', '%Y-%m-%d')
+>>> print(first_date)
+2021-07-01 00:00:00
+```
+
+## how to prevent overlapping of date in figure of matplotlib.
+
+```python
+fig.autofmt_xdate()
+```
+
++ it rotate the labels of date.
+
+![Alt text](images/rotate_date.png)
