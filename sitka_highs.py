@@ -17,22 +17,28 @@ reader = csv.reader(lines)
 header_row = next(reader)
 
 # Extract high temperatures and date.
-highs, dates = [], []
+highs, lows, dates = [], [], []
 
 for row in reader:
     high = int(row[4])
+    low = int(row[5]) 
     current_date = datetime.strptime(row[2], "%Y-%m-%d")
 
     highs.append(high)
+    lows.append(low)
     dates.append(current_date)
 
 # Plot the high temperatures
 plt.style.use(plt.style.available[16])
 fig, ax = plt.subplots()
-ax.polt(dates, highs, color='red', linewidth=1.5)
+
+# Highs
+ax.plot(dates, highs, color='red', linewidth=3)
+# Lows
+ax.plot(dates, lows, color='blue')
 
 # Format plot
-ax.set_title("Daily High Temperatures, 2021", fontsize=24)
+ax.set_title("Daily High Temperatures 2021", fontsize=24)
 ax.set_xlabel("", fontsize=16)
 fig.autofmt_xdate()
 ax.set_ylabel("Temperature (F)", fontsize=16)
