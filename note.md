@@ -62,3 +62,17 @@ fig.autofmt_xdate()
 + it rotate the labels of date.
 
 ![Alt text](images/rotate_date.png)
+
+## Fill color between two datasets
+
++ `ax.fill_between()` is used to fill color between two datasets.
++ it take one x_values and two y_values or datasets arrgument
++ `ax.fill_between()` take `facecolor=` arrgument for putting color between graphs.
++ `alpha=` arrgument control the transparency of color. 0 mins full tranparent and 1 completely visible.
+
+
+```python
+ax.fill_between(dates, highs, lows, facecolor='blue', alpha=0.1)
+```
+
+![Alt text](images/shading_between_two_graph.png)

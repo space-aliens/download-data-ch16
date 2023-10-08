@@ -33,9 +33,12 @@ plt.style.use(plt.style.available[16])
 fig, ax = plt.subplots()
 
 # Highs
-ax.plot(dates, highs, color='red', linewidth=3)
+ax.plot(dates, highs, color='red',)
 # Lows
 ax.plot(dates, lows, color='blue')
+# Fill color between highs and lows
+ax.fill_between(dates, highs, lows, facecolor='blue', alpha=0.1)
+
 
 # Format plot
 ax.set_title("Daily High Temperatures 2021", fontsize=24)
