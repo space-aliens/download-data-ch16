@@ -21,8 +21,10 @@ result:
 + `enumerate()` return: index of item and item value.
 + `enumerate()` take `list` a arrgument.
 
+```python
 for index, column_header in enumerate(header_row):
     print(index, column_header)
+```
 
 ## looping throught reader object
 
