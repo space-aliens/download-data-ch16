@@ -253,7 +253,7 @@
             "type": "Feature",
             "properties": {
                 "mag": 4.6,
-                "place": "49 km SSE of Koróni, Greece",
+                "place": "49 km SSE of Kor\u00f3ni, Greece",
                 "time": 1649047182232,
                 "updated": 1649049053040,
                 "tz": null,
@@ -277,7 +277,7 @@
                 "gap": 117,
                 "magType": "mb",
                 "type": "earthquake",
-                "title": "M 4.6 - 49 km SSE of Koróni, Greece"
+                "title": "M 4.6 - 49 km SSE of Kor\u00f3ni, Greece"
             },
             "geometry": {
                 "type": "Point",
@@ -733,7 +733,7 @@
             "type": "Feature",
             "properties": {
                 "mag": 2.29,
-                "place": "3 km S of Guánica, Puerto Rico",
+                "place": "3 km S of Gu\u00e1nica, Puerto Rico",
                 "time": 1649039623330,
                 "updated": 1649043326070,
                 "tz": null,
@@ -757,7 +757,7 @@
                 "gap": 217,
                 "magType": "md",
                 "type": "earthquake",
-                "title": "M 2.3 - 3 km S of Guánica, Puerto Rico"
+                "title": "M 2.3 - 3 km S of Gu\u00e1nica, Puerto Rico"
             },
             "geometry": {
                 "type": "Point",
@@ -1613,7 +1613,7 @@
             "type": "Feature",
             "properties": {
                 "mag": 4.5,
-                "place": "61 km SSW of Ocós, Guatemala",
+                "place": "61 km SSW of Oc\u00f3s, Guatemala",
                 "time": 1649027731949,
                 "updated": 1649033198329,
                 "tz": null,
@@ -1637,7 +1637,7 @@
                 "gap": 149,
                 "magType": "mb",
                 "type": "earthquake",
-                "title": "M 4.5 - 61 km SSW of Ocós, Guatemala"
+                "title": "M 4.5 - 61 km SSW of Oc\u00f3s, Guatemala"
             },
             "geometry": {
                 "type": "Point",
@@ -1813,7 +1813,7 @@
             "type": "Feature",
             "properties": {
                 "mag": 2.24000001,
-                "place": "3 km SSE of Pāhala, Hawaii",
+                "place": "3 km SSE of P\u0101hala, Hawaii",
                 "time": 1649026252110,
                 "updated": 1649026452200,
                 "tz": null,
@@ -1837,7 +1837,7 @@
                 "gap": 97,
                 "magType": "md",
                 "type": "earthquake",
-                "title": "M 2.2 - 3 km SSE of Pāhala, Hawaii"
+                "title": "M 2.2 - 3 km SSE of P\u0101hala, Hawaii"
             },
             "geometry": {
                 "type": "Point",
@@ -2013,7 +2013,7 @@
             "type": "Feature",
             "properties": {
                 "mag": 2.11999989,
-                "place": "1 km NNE of Pāhala, Hawaii",
+                "place": "1 km NNE of P\u0101hala, Hawaii",
                 "time": 1649022408490,
                 "updated": 1649022729250,
                 "tz": null,
@@ -2037,7 +2037,7 @@
                 "gap": 210,
                 "magType": "md",
                 "type": "earthquake",
-                "title": "M 2.1 - 1 km NNE of Pāhala, Hawaii"
+                "title": "M 2.1 - 1 km NNE of P\u0101hala, Hawaii"
             },
             "geometry": {
                 "type": "Point",
@@ -3253,7 +3253,7 @@
             "type": "Feature",
             "properties": {
                 "mag": 4.4,
-                "place": "95 km SSW of Severo-Kuril’sk, Russia",
+                "place": "95 km SSW of Severo-Kuril\u2019sk, Russia",
                 "time": 1649007090844,
                 "updated": 1649020099040,
                 "tz": null,
@@ -3277,7 +3277,7 @@
                 "gap": 164,
                 "magType": "mb",
                 "type": "earthquake",
-                "title": "M 4.4 - 95 km SSW of Severo-Kuril’sk, Russia"
+                "title": "M 4.4 - 95 km SSW of Severo-Kuril\u2019sk, Russia"
             },
             "geometry": {
                 "type": "Point",
@@ -3693,7 +3693,7 @@
             "type": "Feature",
             "properties": {
                 "mag": 1.6,
-                "place": "6 km SSE of Guánica, Puerto Rico",
+                "place": "6 km SSE of Gu\u00e1nica, Puerto Rico",
                 "time": 1649002069150,
                 "updated": 1649002596650,
                 "tz": null,
@@ -3717,7 +3717,7 @@
                 "gap": 280,
                 "magType": "md",
                 "type": "earthquake",
-                "title": "M 1.6 - 6 km SSE of Guánica, Puerto Rico"
+                "title": "M 1.6 - 6 km SSE of Gu\u00e1nica, Puerto Rico"
             },
             "geometry": {
                 "type": "Point",
@@ -3853,7 +3853,7 @@
             "type": "Feature",
             "properties": {
                 "mag": 1.72000003,
-                "place": "1 km W of Pāhala, Hawaii",
+                "place": "1 km W of P\u0101hala, Hawaii",
                 "time": 1649000224670,
                 "updated": 1649000420560,
                 "tz": null,
@@ -3877,7 +3877,7 @@
                 "gap": 190,
                 "magType": "md",
                 "type": "earthquake",
-                "title": "M 1.7 - 1 km W of Pāhala, Hawaii"
+                "title": "M 1.7 - 1 km W of P\u0101hala, Hawaii"
             },
             "geometry": {
                 "type": "Point",
@@ -4093,7 +4093,7 @@
             "type": "Feature",
             "properties": {
                 "mag": 4.2,
-                "place": "62 km E of Nahrīn, Afghanistan",
+                "place": "62 km E of Nahr\u012bn, Afghanistan",
                 "time": 1648998003542,
                 "updated": 1648999385040,
                 "tz": null,
@@ -4117,7 +4117,7 @@
                 "gap": 75,
                 "magType": "mb",
                 "type": "earthquake",
-                "title": "M 4.2 - 62 km E of Nahrīn, Afghanistan"
+                "title": "M 4.2 - 62 km E of Nahr\u012bn, Afghanistan"
             },
             "geometry": {
                 "type": "Point",
@@ -4213,7 +4213,7 @@
             "type": "Feature",
             "properties": {
                 "mag": 1.72000003,
-                "place": "3 km S of Pāhala, Hawaii",
+                "place": "3 km S of P\u0101hala, Hawaii",
                 "time": 1648996031430,
                 "updated": 1648996228460,
                 "tz": null,
@@ -4237,7 +4237,7 @@
                 "gap": 83,
                 "magType": "md",
                 "type": "earthquake",
-                "title": "M 1.7 - 3 km S of Pāhala, Hawaii"
+                "title": "M 1.7 - 3 km S of P\u0101hala, Hawaii"
             },
             "geometry": {
                 "type": "Point",
@@ -4533,7 +4533,7 @@
             "type": "Feature",
             "properties": {
                 "mag": 2.20000005,
-                "place": "12 km ESE of Pāhala, Hawaii",
+                "place": "12 km ESE of P\u0101hala, Hawaii",
                 "time": 1648989501190,
                 "updated": 1648989693340,
                 "tz": null,
@@ -4557,7 +4557,7 @@
                 "gap": 181,
                 "magType": "md",
                 "type": "earthquake",
-                "title": "M 2.2 - 12 km ESE of Pāhala, Hawaii"
+                "title": "M 2.2 - 12 km ESE of P\u0101hala, Hawaii"
             },
             "geometry": {
                 "type": "Point",
@@ -4773,7 +4773,7 @@
             "type": "Feature",
             "properties": {
                 "mag": 2.3,
-                "place": "10 km E of Pāhala, Hawaii",
+                "place": "10 km E of P\u0101hala, Hawaii",
                 "time": 1648987016530,
                 "updated": 1648990522040,
                 "tz": null,
@@ -4797,7 +4797,7 @@
                 "gap": 156,
                 "magType": "ml",
                 "type": "earthquake",
-                "title": "M 2.3 - 10 km E of Pāhala, Hawaii"
+                "title": "M 2.3 - 10 km E of P\u0101hala, Hawaii"
             },
             "geometry": {
                 "type": "Point",
@@ -5013,7 +5013,7 @@
             "type": "Feature",
             "properties": {
                 "mag": 1.76999998,
-                "place": "9 km E of Pāhala, Hawaii",
+                "place": "9 km E of P\u0101hala, Hawaii",
                 "time": 1648981738590,
                 "updated": 1648981919720,
                 "tz": null,
@@ -5037,7 +5037,7 @@
                 "gap": 181,
                 "magType": "md",
                 "type": "earthquake",
-                "title": "M 1.8 - 9 km E of Pāhala, Hawaii"
+                "title": "M 1.8 - 9 km E of P\u0101hala, Hawaii"
             },
             "geometry": {
                 "type": "Point",
@@ -5213,7 +5213,7 @@
             "type": "Feature",
             "properties": {
                 "mag": 1.82000005,
-                "place": "7 km E of Pāhala, Hawaii",
+                "place": "7 km E of P\u0101hala, Hawaii",
                 "time": 1648980171490,
                 "updated": 1648980370660,
                 "tz": null,
@@ -5237,7 +5237,7 @@
                 "gap": 158,
                 "magType": "md",
                 "type": "earthquake",
-                "title": "M 1.8 - 7 km E of Pāhala, Hawaii"
+                "title": "M 1.8 - 7 km E of P\u0101hala, Hawaii"
             },
             "geometry": {
                 "type": "Point",
@@ -6253,7 +6253,7 @@
             "type": "Feature",
             "properties": {
                 "mag": 1.83,
-                "place": "4 km SSE of Guánica, Puerto Rico",
+                "place": "4 km SSE of Gu\u00e1nica, Puerto Rico",
                 "time": 1648970331430,
                 "updated": 1648972156200,
                 "tz": null,
@@ -6277,7 +6277,7 @@
                 "gap": 219,
                 "magType": "md",
                 "type": "earthquake",
-                "title": "M 1.8 - 4 km SSE of Guánica, Puerto Rico"
+                "title": "M 1.8 - 4 km SSE of Gu\u00e1nica, Puerto Rico"
             },
             "geometry": {
                 "type": "Point",

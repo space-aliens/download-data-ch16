@@ -78,3 +78,6 @@ ax.fill_between(dates, highs, lows, facecolor='blue', alpha=0.1)
 ```
 
 ![Alt text](images/shading_between_two_graph.png)
+
+
+## How to create a world map in plotly
