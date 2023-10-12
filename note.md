@@ -81,3 +81,8 @@ ax.fill_between(dates, highs, lows, facecolor='blue', alpha=0.1)
 
 
 ## How to create a world map in plotly
++ `px.scatter_geo()` function is used for plotting on world map in `plotly.express`.
++ `px.scatter_geo(lat=, log=, title=, size=)` as arrgument.
++ lat-> x and log-> y
+
+![Alt text](images/world_map_simple.png)
