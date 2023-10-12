@@ -86,3 +86,29 @@ ax.fill_between(dates, highs, lows, facecolor='blue', alpha=0.1)
 + lat-> x and log-> y
 
 ![Alt text](images/world_map_simple.png)
+
+## Customizing Marker Colors.
+
+```python
+
+title =  'Global Earthquakes'
+fig = px.scatter_geo(lat=lats, lon=lons, title=title, size=mags,
+                     color=mags,
+                     color_continuous_scale='Viridis',
+                     labels={'color': 'Magnitude'},
+                     projection='natural earth'
+                     )    
+```
+
++ `color=` arrgument take dataset. according to which color of marker or point determind.
+if it is greater than dark if its is lesser then light. 
++ `color_continuous_scale='Viridis'` this arrgument tells plotly which color scale to use.
++ `labels={'color': 'Magnitude'}` it take dict as arrgument. The labels argument, shown in Chapter 15, takes a dictionary as a
+value 3. We only need to set one custom label on this chart, making sure
+the color scale is labeled Magnitude instead of color.
+
+## Which function is used to find other Color Scales in plotly.
+
+```python
+px.colors.named_colorscales()
+```
