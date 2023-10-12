@@ -25,7 +25,7 @@ mags, lons, lats, eq_titles = [eq_dict['properties']['mag'] for eq_dict in all_e
 #     lats.append(lat)
 #     eq_titles.append(eq_title)
 
-title =  'Global Earthquakes'
+title = all_eq_data["metadata"]["title"]
 fig = px.scatter_geo(lat=lats, lon=lons, title=title, size=mags,
                      color=mags,
                      color_continuous_scale='mygbm',
